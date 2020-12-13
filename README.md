@@ -1,61 +1,49 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+/////////////////////////////// Make laravel Apis /////////////////////////////// 
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+For making apis first 
 
-## About Laravel
+we have to install composer its a dependecy for installation of frameworks
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+installation of xammpp
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+installation of postman
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Create a database inside a localhostand connecct it with laravel project
 
-## Learning Laravel
+Then using composer we have to install laravel installation, this will also helps you to create a dummy project on laravel
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+composer create-project laravel/laravel example-app
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+After all this steps we have to make controllers php artisan make:controller (e.g device controller) then on hit enter this make your controller in a laravel dummy project directory
 
-## Laravel Sponsors
+in a routes directory of a laravel in api.php file we make our api routes and functions name that will calling functions on that routes and on controller we make our functions 
+i-e Get, Post, Put, Delete
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+after saving all these changes in a project, we have to use them one by one on a postman
 
-### Premium Partners
+for this purpose first we have to start a localserer for thsis we have to give a command
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[OP.GG](https://op.gg)**
+php artisan serve
 
-## Contributing
+this will start our server https://127.0.0.1:8000/
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+then try those routes with a localhost on a postman acccoding to their meothods(Get,Post,Put,Delete)
 
-## Code of Conduct
+then on trying those routes as apis on a postman a response back along with respoonse code 200  that means everything works fine and our results shown as json
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+then when we start a xampp server for actuall database on a zammpp server we have to start apachae and mysql then on a broswer type localhost/phpmyadmin
 
-## Security Vulnerabilities
+then on a side bar we see different directries there is a daatabase table name too, whenever we perform implemenation of data on apis then our result shown on localhost server 
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-## License
+/////////////////////////////// Android app /////////////////////////////// 
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+In our android we will using retrofit that helps to connect our andorid app with a backend for this if we are using andorid device attached with our pc
+we have to write a command on a laravel terminal (i-e php artisan serv --host="pc ip-address"  --port=3306) then on hitting it our server starts along with ipaddress with mysql port number
+
+onething more there was a previous server running too , we have to terminate that sserver too then working on new server other ip-address will become busy and no more api will work on android app
+
+then with the help of retrofit andd some apis our android app will perform operation .
+
+
+
