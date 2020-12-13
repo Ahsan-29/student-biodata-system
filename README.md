@@ -1,4 +1,4 @@
-/////////////////////////////// Make laravel Apis /////////////////////////////// 
+# Student Bio-data system Apis
 
 For making apis first 
 
@@ -34,16 +34,3 @@ then on trying those routes as apis on a postman a response back along with resp
 then when we start a xampp server for actuall database on a zammpp server we have to start apachae and mysql then on a broswer type localhost/phpmyadmin
 
 then on a side bar we see different directries there is a daatabase table name too, whenever we perform implemenation of data on apis then our result shown on localhost server 
-
-
-/////////////////////////////// Android app /////////////////////////////// 
-
-In our android we will using retrofit that helps to connect our andorid app with a backend for this if we are using andorid device attached with our pc
-we have to write a command on a laravel terminal (i-e php artisan serv --host="pc ip-address"  --port=3306) then on hitting it our server starts along with ipaddress with mysql port number
-
-onething more there was a previous server running too , we have to terminate that sserver too then working on new server other ip-address will become busy and no more api will work on android app
-
-then with the help of retrofit andd some apis our android app will perform operation .
-
-
-
